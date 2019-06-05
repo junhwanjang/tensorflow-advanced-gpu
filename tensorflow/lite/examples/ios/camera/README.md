@@ -18,3 +18,10 @@ Write codes following with [Tensorflow Lite iOS gpu delegate](https://www.tensor
 Applied gpu delegate and binding metal buffer to Input / Output tensor
 
 Device inference Time:  average 20ms ~ 25ms (iphone 8)
+
+[How to build]
+``` cd tensorflow-advanced-gpu/tensorflow/lite/examples/ios```
+``` /download_models.sh ```
+``` cd camera ```
+``` pod install ```
+- Open tflite_camera_example.xcworkspace 
