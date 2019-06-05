@@ -19,7 +19,7 @@
 
 // Set TFLITE_USE_GPU_DELEGATE to 1 to use TFLite GPU Delegate.
 #ifndef TFLITE_USE_GPU_DELEGATE
-#define TFLITE_USE_GPU_DELEGATE 0
+#define TFLITE_USE_GPU_DELEGATE 1
 #endif
 
 @interface CameraExampleViewController

@@ -420,6 +420,7 @@ void ProcessInputWithQuantizedModel(
   options.allow_precision_loss = true;
   options.wait_type = GpuDelegateOptions::WaitType::kActive;
   delegate = NewGpuDelegate(&options);
+  interpreter->SetAllowBufferHandleOutput(true);
   interpreter->ModifyGraphWithDelegate(delegate);
 #endif
 
